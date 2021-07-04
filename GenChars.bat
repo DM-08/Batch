@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 set "string=abcdefghijklmnopqrstuvwxyz"
 :start
 set "result="
-set /p WordLen="Enter number of cha: "
+set /p WordLen="Enter number of characters required: "
 
 for /L %%i in (1,1,%WordLen%) do call :add
 
